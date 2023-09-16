@@ -1,0 +1,11 @@
+s = input('please Enter:')
+u=0
+l=0
+for i in s:
+    if i.isupper():
+        u=u+1
+    elif i.islower():
+        l=l+1
+print('no. of ippercase',u)
+print('no. of lowercase',l)
+
