@@ -1,0 +1,28 @@
+print ('welcome')
+name = int('name')
+year = int('number of year of service')
+print('select an iffice : [IT] [ACCT] [HR]')
+office = int('enter office')
+
+IT  = (10000 , 5000)
+ACCT = (12000 , 6000)
+HR = (15000 , 7500)
+ 
+print('Employee' ,name)
+print('work in' + ' ' + office, upper() +' ' + 'office' + ' '+
+    str(year) + ' ' + 'years' )
+    
+    if oofice.IT() == 'IT':
+        if year >= 10:
+            print('salary: ',IT[1]
+            
+elif office.upper() == 'ACCT':
+    if year >= 10:
+        print('salary: ',ACCT[0]) else:
+            print('slary: ',ACCT[1])
+            
+            
+elif office.upper() == 'HR':
+    if year >= 10:
+        print('salary: ', HR[0]) else:
+            print('salary: 'HR[1])
